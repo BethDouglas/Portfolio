@@ -232,7 +232,7 @@ header.masthead {
     max-width: 400px;
     margin: 0 auto;
     cursor: pointer; 
-    box-shadow: 3px 3px 1px 1px rgba(159, 159, 160, .2)}
+    }
     #portfolio .portfolio-item .portfolio-link .portfolio-hover {
       position: absolute;
       width: 100%;
@@ -242,7 +242,7 @@ header.masthead {
       transition: all ease 0.5s;
       opacity: 0;
       background: rgba(255, 255, 255, 0.3);
-      box-shadow: 3px 3px 1px 1px rgba(159, 159, 160, .2) }
+       }
       #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
         opacity: 1; }
       #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
@@ -260,10 +260,9 @@ header.masthead {
         #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
           margin: 0; }
   #portfolio .portfolio-item .portfolio-caption {
-    max-width: 400px;
-    margin: 0 auto;
+
     padding: 25px;
-    text-align: center;}
+    text-align: left;}
     #portfolio .portfolio-item .portfolio-caption h4 {
       margin: 0;
       text-transform: none; }
