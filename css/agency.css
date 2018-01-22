@@ -175,7 +175,7 @@
                                                                       header.masthead {
                                                                         text-align: center;
                                                                         color: white;
-                                                                        background-image: url("https://i.imgur.com/Fnb0kN8.jpg");  
+                                                                        background: linear-gradient(0deg, rgba(77, 116, 175, 1) 0%,rgba(17, 37, 68, 1) 80%);  
                                                                         background-repeat: no-repeat;
                                                                         background-attachment: scroll;
                                                                         background-position: center center;
@@ -225,6 +225,10 @@
 
 .my-card {
   padding-top: 15px;
+}
+
+.row {
+  flex-wrap: nowrap;
 }
 
             #portfolio .portfolio-item {
