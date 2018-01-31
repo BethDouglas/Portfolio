@@ -16,7 +16,7 @@
         color: #fec503; }
 
         .text-primary {
-          color: #fed136; /*!important*/; }
+          color: #FBBA7B; /*!important*/; }
 
           h1,
           h2,
@@ -49,7 +49,7 @@
                     }
 
                     .progress-bar {
-                      background-color: #4286f4;
+                      background-color: #406297;
                     }
                     span {
                       font-family: 'Open Sans Condensed', sans-serif;
@@ -57,8 +57,7 @@
 
                     .btn {
                       font-family: 'Open Sans Condensed', sans-serif;
-                      /*font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
-                      font-weight: 700; }
+                       }
 
                       .btn-primary {
                         color: white;
@@ -67,18 +66,18 @@
                         background-color: #4286f4; }
                         .btn-primary.focus, .btn-primary:focus {
                           color: white;
-                          border-color: #fed136;
-                          background-color: #fed136; }
+                          border-color: #FBBA7B;
+                          background-color: #FBBA7B; }
                           .btn-primary:hover {
                             color: white;
                             /* Here are Pictures Button When Hovering*/
-                            border-color: #fed136;
-                            background-color: #fed136; }
+                            border-color: #FBBA7B;
+                            background-color: #FBBA7B; }
                             .btn-primary.active, .btn-primary:active,
                             .open > .btn-primary.dropdown-toggle {
                               color: white;
-                              border-color: #f6bf01;
-                              background-color: #fec503; }
+                              border-color: #FBBA7B;
+                              background-color: #FBBA7B; }
                               .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover,
                               .open > .btn-primary.dropdown-toggle.focus,
                               .open > .btn-primary.dropdown-toggle:focus,
@@ -93,10 +92,10 @@
                                   fieldset[disabled] .btn-primary.focus,
                                   fieldset[disabled] .btn-primary:focus,
                                   fieldset[disabled] .btn-primary:hover {
-                                    border-color: #fed136;
-                                    background-color: #fed136; }
+                                    border-color: #FBBA7B;
+                                    background-color: #FBBA7B; }
                                     .btn-primary .badge {
-                                      color: #fed136;
+                                      color: #FBBA7B;
                                       background-color: white; }
 
                                       .btn-xl {
@@ -104,11 +103,10 @@
                                         padding: 20px 40px; }
 
                                         ::-moz-selection {
-                                          background: #fed136;
+                                          background: #FBBA7B;
                                           text-shadow: none; }
 
-                                          ::selection {
-                                            /*background: #fed136;*/
+                                          ::selection {                                           
                                             text-shadow: none; }
 
                                             img::selection {
@@ -132,11 +130,11 @@
                                                       background-color: #4286f4;
                                                       font-family: 'Open Sans Condensed', sans-serif; }
                                                       #mainNav .navbar-brand {
-                                                        color: #4286f4;
-                                                        font-family: 'Courgette', cursive;
+                                                        color: #ffffff;
+                                                        font-family: 'Poiret One', cursive;
                                                       /*font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;*/ }
                                                       #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-                                                        color: #fec503; }
+                                                        color: #FBBA7B; }
                                                         #mainNav .navbar-nav .nav-item .nav-link {
                                                           font-size: 90%;
                                                           font-weight: 400;
@@ -146,7 +144,7 @@
                                                           font-family: 'Open Sans Condensed', sans-serif;
                                                         /*font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/ }
                                                         #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-                                                          color: #fed136; }
+                                                          color: #FBBA7B; }
 
                                                           @media (min-width: 992px) {
                                                             #mainNav {
@@ -169,7 +167,7 @@
                                                                     padding-bottom: 0;
                                                                     background-color: #212529; }
                                                                     #mainNav.navbar-shrink .navbar-brand {
-                                                                      font-size: 1.25em;
+                                                                      font-size: 1.75em;
                                                                       padding: 12px 0; } }
 
                                                                       header.masthead {
@@ -209,7 +207,7 @@
           font-size: 40px;
           line-height: 40px;
           margin-bottom: 5px;
-          font-family: 'Open Sans Condensed', sans-serif;
+          font-family: 'Poiret One', cursive;
         /*font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/ }
         header.masthead .intro-text .intro-heading {
           font-size: 40px;
@@ -369,7 +367,7 @@
         background-repeat: no-repeat;
         background-position: center; }
         section#contact .section-heading {
-          color: #4286f4; }
+          color: black; }
           section#contact .form-group {
             margin-bottom: 25px; }
             section#contact .form-group input,
@@ -380,7 +378,7 @@
                 section#contact .form-group textarea.form-control {
                   height: 248px; }
                   section#contact .form-control:focus {
-                    border-color: #fed136;
+                    border-color: #FBBA7B;
                     box-shadow: none; }
                     section#contact ::-webkit-input-placeholder {
                       font-weight: 700;
@@ -437,7 +435,7 @@
                           outline: none;
                           background-color: #212529; }
                           ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-                            background-color: #fed136; }
+                            background-color: #FBBA7B; }
 
                             .portfolio-modal {
                               padding-right: 0px !important;
