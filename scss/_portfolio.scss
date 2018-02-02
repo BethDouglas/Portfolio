@@ -128,17 +128,14 @@
 
                                                           .timeline-image {
                                                             float: right;
-                                                            /*position: absolute;*/
                                                             z-index: 100;
                                                             left: 0;
-      /*width: 100px;
-      height: 100px;*/
-      margin-left: 0;
-      text-align: center;
-      color: white;
-      border: 7px solid #e9ecef;
-      border-radius: 100%;
-      background-color: #e9ecef; }
+                                                            margin-left: 0;
+                                                            text-align: center;
+                                                            color: white;
+                                                            border: 7px solid #e9ecef;
+                                                            border-radius: 100%;
+                                                            background-color: #e9ecef; }
 
       .portfolio-modal {
         padding-right: 0px !important;
