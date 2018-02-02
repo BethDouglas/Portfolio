@@ -1,93 +1,114 @@
-// Global styling for this template
 body {
   overflow-x: hidden;
-  @include body-font;
-}
+  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
-p {
-  line-height: 1.75;
-}
+  p {
+    line-height: 1.75; }
 
-a {
-  color: $primary;
-  &.active,
-  &:active,
-  &:focus,
-  &:hover {
-    color: darken($primary, 10%);
-  }
-}
+    a {
+      color: #4286f4; }
+      a.active, a:active, a:focus, a:hover {
+        color: #fec503; }
 
-.text-primary {
-  color: $primary !important;
-}
+        .text-primary {
+          color: #FBBA7B; /*!important*/; }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 700;
-  @include heading-font;
-}
+          h1,
+          h2,
+          h3,
+          h4,
+          h5,
+          h6 {
+            font-weight: 700;
+            font-family: 'Open Sans Condensed', sans-serif;
+          /*font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/ }
 
-section {
-  padding: 100px 0;
-  h2.section-heading {
-    font-size: 40px;
-    margin-top: 0;
-    margin-bottom: 15px;
-  }
-  h3.section-subheading {
-    font-size: 16px;
-    font-weight: 400;
-    font-style: italic;
-    margin-bottom: 75px;
-    text-transform: none;
-    @include serif-font;
-  }
-}
-@media(min-width:768px) {
-  section {
-    padding: 150px 0;
-  }
-}
+          section {
+            padding: 50px 0; }
+            section h2.section-heading {
+              font-size: 40px;
+              margin-top: 0;
+              margin-bottom: 15px; }
+              section h3.section-subheading {
+                font-size: 16px;
+                font-weight: 400;
+                font-style: italic;
+                margin-bottom: 75px;
+                text-transform: none;
+                font-family: 'Open Sans Condensed', sans-serif; }
+                @media (min-width: 768px) {
+                  section {
+                    padding: 40px 0; } }
+                    section#pastlife {
+                      padding-top: 0px;
+                    }
 
-// Button Styles
-.btn {
-  @include heading-font;
-  font-weight: 700;
-}
+                    .progress-bar {
+                      background-color: #406297;
+                    }
+                    span {
+                      font-family: 'Open Sans Condensed', sans-serif;
+                    }
 
-.btn-primary {
-  @include button-variant(white, $primary, $primary);
-}
+                    .btn {
+                      font-family: 'Open Sans Condensed', sans-serif;
+                       }
 
-.btn-xl {
-  font-size: 18px;
-  padding: 20px 40px;
-}
+                      .btn-primary {
+                        color: white;
+                        /*Here are Pictures Button*/
+                        border-color: #4286f4;
+                        background-color: #4286f4; }
+                        .btn-primary.focus, .btn-primary:focus {
+                          color: white;
+                          border-color: #FBBA7B;
+                          background-color: #FBBA7B; }
+                          .btn-primary:hover {
+                            color: white;
+                            /* Here are Pictures Button When Hovering*/
+                            border-color: #FBBA7B;
+                            background-color: #FBBA7B; }
+                            .btn-primary.active, .btn-primary:active,
+                            .open > .btn-primary.dropdown-toggle {
+                              color: white;
+                              border-color: #FBBA7B;
+                              background-color: #FBBA7B; }
+                              .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover,
+                              .open > .btn-primary.dropdown-toggle.focus,
+                              .open > .btn-primary.dropdown-toggle:focus,
+                              .open > .btn-primary.dropdown-toggle:hover {
+                                color: white;
+                                border-color: #b48b01;
+                                background-color: #dcab01; }
+                                .btn-primary.active, .btn-primary:active,
+                                .open > .btn-primary.dropdown-toggle {
+                                  background-image: none; }
+                                  .btn-primary.disabled.focus, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled].focus, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover,
+                                  fieldset[disabled] .btn-primary.focus,
+                                  fieldset[disabled] .btn-primary:focus,
+                                  fieldset[disabled] .btn-primary:hover {
+                                    border-color: #FBBA7B;
+                                    background-color: #FBBA7B; }
+                                    .btn-primary .badge {
+                                      color: #FBBA7B;
+                                      background-color: white; }
 
-// Highlight color customization
-::-moz-selection {
-  background: $primary;
-  text-shadow: none;
-}
+                                      .btn-xl {
+                                        font-size: 18px;
+                                        padding: 20px 40px; }
 
-::selection {
-  background: $primary;
-  text-shadow: none;
-}
+                                        ::-moz-selection {
+                                          background: #FBBA7B;
+                                          text-shadow: none; }
 
-img::selection {
-  background: transparent;
-}
+                                          ::selection {                                           
+                                            text-shadow: none; }
 
-img::-moz-selection {
-  background: transparent;
-}
+                                            img::selection {
+                                              background: transparent; }
 
-body {
-  -webkit-tap-highlight-color: $primary;
-}
+                                              img::-moz-selection {
+                                                background: transparent; }
+
+                                                body {
+                                                  -webkit-tap-highlight-color: white; }
