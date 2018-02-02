@@ -27,8 +27,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'Open Sans Condensed', sans-serif;
-  /*font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/ }
+  font-family: 'Open Sans Condensed', sans-serif; }
 
 section {
   padding: 50px 0; }
@@ -64,7 +63,6 @@ span {
 
 .btn-primary {
   color: white;
-  /*Here are Pictures Button*/
   border-color: #4286f4;
   background-color: #4286f4; }
 
@@ -75,7 +73,6 @@ span {
 
 .btn-primary:hover {
   color: white;
-  /* Here are Pictures Button When Hovering*/
   border-color: #FBBA7B;
   background-color: #FBBA7B; }
 
@@ -143,8 +140,7 @@ body {
 
 #mainNav .navbar-brand {
   color: #ffffff;
-  font-family: 'Poiret One', cursive;
-  /*font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;*/ }
+  font-family: 'Poiret One', cursive; }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
   color: #FBBA7B; }
@@ -155,8 +151,7 @@ body {
   padding: 0.75em 0;
   letter-spacing: 1px;
   color: white;
-  font-family: 'Open Sans Condensed', sans-serif;
-  /*font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/ }
+  font-family: 'Open Sans Condensed', sans-serif; }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #FBBA7B; }
@@ -205,17 +200,14 @@ header.masthead .intro-text .intro-lead-in {
   font-size: 22px;
   line-height: 22px;
   margin-bottom: 5px;
-  font-family: 'Open Sans Condensed', sans-serif;
-  /*font-family: 'Courgette', cursive;
-font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/ }
+  font-family: 'Open Sans Condensed', sans-serif; }
 
 header.masthead .intro-text .intro-heading {
   font-size: 50px;
   font-weight: 700;
   line-height: 50px;
   margin-bottom: 25px;
-  font-family: 'Open Sans Condensed', sans-serif;
-  /*font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/ }
+  font-family: 'Open Sans Condensed', sans-serif; }
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
@@ -225,15 +217,13 @@ header.masthead .intro-text .intro-heading {
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 5px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    /*font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/ }
+    font-family: 'Open Sans Condensed', sans-serif; }
   header.masthead .intro-text .intro-heading {
     font-size: 40px;
     font-weight: 700;
     line-height: 75px;
     margin-bottom: 5px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    /*font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/ } }
+    font-family: 'Open Sans Condensed', sans-serif; } }
 
 .service-heading {
   margin: 15px 0;
@@ -379,11 +369,8 @@ header.masthead .intro-text .intro-heading {
 
 .timeline-image {
   float: right;
-  /*position: absolute;*/
   z-index: 100;
   left: 0;
-  /*width: 100px;
-      height: 100px;*/
   margin-left: 0;
   text-align: center;
   color: white;
@@ -618,7 +605,6 @@ header.masthead .intro-text .intro-heading {
 
 section#contact {
   background-color: #f8f9fa;
-  /*background-image: url("../img/Contact.jpg");*/
   background-repeat: no-repeat;
   background-position: center; }
 
@@ -645,28 +631,23 @@ section#contact .form-control:focus {
 section#contact ::-webkit-input-placeholder {
   font-weight: 700;
   color: #ced4da;
-  font-family: 'Open Sans Condensed', sans-serif;
-  /*font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/ }
+  font-family: 'Open Sans Condensed', sans-serif; }
 
 section#contact :-moz-placeholder {
   font-weight: 700;
   color: #ced4da;
-  /* Firefox 18- */
-  font-family: 'Open Sans Condensed', sans-serif;
-  /*font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/ }
+  font-family: 'Open Sans Condensed', sans-serif; }
 
 section#contact ::-moz-placeholder {
   font-weight: 700;
   color: #ced4da;
   /* Firefox 19+ */
-  font-family: 'Open Sans Condensed', sans-serif;
-  /*font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/ }
+  font-family: 'Open Sans Condensed', sans-serif; }
 
 section#contact :-ms-input-placeholder {
   font-weight: 700;
   color: #ced4da;
-  font-family: 'Open Sans Condensed', sans-serif;
-  /*font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/ }
+  font-family: 'Open Sans Condensed', sans-serif; }
 
 footer {
   padding: 25px 0;
@@ -676,16 +657,14 @@ footer span.copyright {
   font-size: 90%;
   line-height: 40px;
   text-transform: none;
-  font-family: 'Open Sans Condensed', sans-serif;
-  /*font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/ }
+  font-family: 'Open Sans Condensed', sans-serif; }
 
 footer ul.quicklinks {
   font-size: 90%;
   line-height: 40px;
   margin-bottom: 0;
   text-transform: none;
-  font-family: 'Open Sans Condensed', sans-serif;
-  /*font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/ }
+  font-family: 'Open Sans Condensed', sans-serif; }
 
 footer {
   padding: 25px 0;
